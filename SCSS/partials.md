@@ -9,5 +9,5 @@ Sass partials bruges sammen med @import direktivet.
 *Eksempel:*
 
 ```scss
-@import '_partials.scss';
+@import 'partials';
 ```
