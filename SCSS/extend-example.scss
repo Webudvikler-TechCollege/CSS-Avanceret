@@ -1,0 +1,20 @@
+/*
+* Placeholder class til input types
+*/
+
+//Placeholder Class
+%input-field {
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    padding: 6px;
+    box-shadow: inset 0px 0px 1px #ccc;
+    width: 100%;
+}
+
+//Extending Class
+input[type=text], input[type=email] {
+    @extend %input-field;
+    &.field-error {
+        border-color: $error-color;
+    }
+}
