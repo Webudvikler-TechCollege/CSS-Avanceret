@@ -1,5 +1,7 @@
 # Introduktion til SASS
 
+SASS er en forkortelse af Synt
+
 ## Preprocessing (forbehandling)
 CSS alene kan være sjovt, men i takt med at stylesheets bliver større og mere komplekse, kan en preprocessor være en god hjælp og her kan du med fordel bruge *Sass*. 
 

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex Line Wrapping</title>
+    <style>
+        /* Flex Container */
+        .flex-container {
+            display: inline-flex;
+            width: 50%;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Line Wrapping</h1>
+    <p>Som standard har et flexbox element no wrapping på child elementer. </p>
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 01</div>
+        <div class="flex-item">Flex Item 02</div>
+        <div class="flex-item">Flex Item 03</div>
+        <div class="flex-item">Flex Item 04</div>
+        <div class="flex-item">Flex Item 05</div>
+        <div class="flex-item">Flex Item 06</div>
+        <div class="flex-item">Flex Item 07</div>
+        <div class="flex-item">Flex Item 08</div>
+    </div>
+    <p>Dette kan vi undgå ved at bruge egenskaben flex-wrap:</p>
+    <div class="flex-container flex-wrap">
+        <div class="flex-item">Flex Item 01</div>
+        <div class="flex-item">Flex Item 02</div>
+        <div class="flex-item">Flex Item 03</div>
+        <div class="flex-item">Flex Item 04</div>
+        <div class="flex-item">Flex Item 05</div>
+        <div class="flex-item">Flex Item 06</div>
+        <div class="flex-item">Flex Item 07</div>
+        <div class="flex-item">Flex Item 08</div>
+    </div>
+    <p>Du kan også kombinere flex-wrap med flex-direction 
+        og få forskellige wrappings i din container. Prøv det :P</p>
+</body>
+</html>
