@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex - Align self</title>
+    <style>
+        /* Flex Container */
+        .flex-container {
+            display: inline-flex;
+            width: 33em;
+            height: 15em;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .align-content-start {
+            align-content: flex-start;
+        }
+
+        .align-content-center {
+            align-content: center;
+        }
+
+        .align-content-space-around {
+            align-content: space-around;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flex - Align-content</h1>
+    <p>Egenskaben <i>align-content</i> er den vertikale udgave af <i>justify-content</i>. På samme måde 
+        kan du justere alignment til flex-start, center og flex-end, og du kan også bruge værdierne 
+        space-between og space-around.
+    </p>
+    <p>Standard værdi er stretch.</p>
+    <h2>Align-content: flex-start</h2>
+    <div class="flex-container align-content-start">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+    <h2>Align-content: center</h2>
+    <div class="flex-container align-content-center">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+    <h2>Align-content: space-around</h2>
+    <div class="flex-container align-content-space-around">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+</body>
+</html>

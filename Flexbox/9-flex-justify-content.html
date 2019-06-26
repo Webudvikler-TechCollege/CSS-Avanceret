@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex - Justify content</title>
+    <style>
+        /* Flex Container */
+        .flex-container {
+            display: flex;
+            /* height: 30em; */
+            /* flex-direction: column; */
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex - Justify content</h1>
+    <p>Justify-content er en egenskab der sættes på flex-container og kan bruges til at 
+        justere flex-items på den horisontale eller vertikale linie - alt efter hvad flex-direction er sat til.</p>
+    <p>Standard værdi er flex-start.</p>
+    <h2>Justify-content: flex-start</h2>
+    <div class="flex-container flex-start">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>    
+    <h2>Justify-content: flex-end</h2>
+    <div class="flex-container flex-end">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+    <h2>Justify-content: center</h2>
+    <div class="flex-container center">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+</body>
+</html>

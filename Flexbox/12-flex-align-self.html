@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex - Align self</title>
+    <style>
+        /* Flex Container */
+        .flex-container {
+            display: flex;
+            height: 15em;
+            align-items: flex-start; 
+        }
+
+        .flex-item-2 {
+            align-self: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flex - Align-self</h1>
+    <p>Align-self skal bruges når du vil justere et enkelt flex-item.
+    </p>
+    <div class="flex-container">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>
+</body>
+</html>

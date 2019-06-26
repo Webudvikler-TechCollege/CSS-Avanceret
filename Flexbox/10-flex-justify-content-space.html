@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex - Justify content - Space</title>
+    <style>
+        /* Flex Container */
+        .flex-container {
+            display: flex;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex - Justify content - Space</h1>
+    <h2>Space-between</h2>
+    <p>Ved at bruge justify-content med værdien space-between kan du justere luften rundt om dine flex-items.</p>
+    <div class="flex-container space-between">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>    
+    <h2>Space-around</h2>
+    <p>Space-around giver luft om første og sidste element i dine flex-items.</p>
+    <div class="flex-container space-around">
+        <div class="flex-item flex-item-1">Flex Item 01</div>
+        <div class="flex-item flex-item-2">Flex Item 02</div>
+        <div class="flex-item flex-item-3">Flex Item 03</div>
+        <div class="flex-item flex-item-4">Flex Item 04</div>
+        <div class="flex-item flex-item-5">Flex Item 05</div>
+    </div>    
+</body>
+</html>
