@@ -1,0 +1,33 @@
+* {
+    font-family: Tahoma;
+}
+
+body > div {
+    border: solid 3px #000;
+    padding:2px;
+}
+
+div > div {
+    padding: 20px;
+    border: solid 1px #000;
+}
+
+[class$='-1'] {
+    background-color: #c6c;
+}
+
+[class$='-2'] {
+    background-color: #39c;
+}
+
+[class$='-3'] {
+    background-color: #6c9;
+}
+
+[class$='-4'] {
+    background-color: #fc6;
+}
+
+[class$='-5'] {
+    background-color: #f66;
+}
