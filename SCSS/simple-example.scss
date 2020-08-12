@@ -1,0 +1,41 @@
+// Variabel eksempler
+$bgcolor: #111;
+$bgcolor-dark: #000;
+$linkcolor: #f2f2f2;
+
+// Mixin eksempel til font
+@mixin font($font, $size, $color) {
+    font-family: $font;
+    font-size: $size;
+    color: $color;
+}
+
+// Mixin eksempel til transition
+@mixin transition($property) {
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    transition: $property;
+}
+
+// Brug af mixin
+body {
+    background-color: #333;
+    @include font('Trebuchet MS', 1rem, #fff);
+}
+
+// Brug af mixin, variabel og nesting
+.header {
+    background: $bgcolor;
+    @include transition(all 0.4s ease);
+    a {
+        @include font(Verdana, 2rem, #fff);
+        @include transition(all 0.4s ease);
+    }
+}
+
+.main {
+    background: $bgcolor-dark;
+    a {
+        font-size: 1rem;
+    }
+}

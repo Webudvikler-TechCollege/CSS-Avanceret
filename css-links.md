@@ -7,9 +7,16 @@
 - [A visual guide to flexbox properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 - [Solved by flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 
+## CSS Grid
+- [Grid Resource](http://grid.malven.co/)
+
 ## CSS Forums
 
 - [CSS Layout News](http://csslayout.news/)
+
+## Sass/Scss
+
+- [MIxins - best practice](https://responsivedesign.is/articles/helpful-sass-mixins/)
 
 ## Misc tricks
 
